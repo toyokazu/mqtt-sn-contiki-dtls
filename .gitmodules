@@ -1,0 +1,18 @@
+[submodule "contiki"]
+	path = contiki
+	url = https://github.com/sk2-broken/contiki
+[submodule "DTLS_RSMB"]
+	path = DTLS_RSMB
+	url = https://github.com/sk2-broken/DTLS_RSMB
+[submodule "org.eclipse.tinydtls"]
+	path = org.eclipse.tinydtls
+	url = https://github.com/sk2-broken/org.eclipse.tinydtls
+[submodule "tinydtls-0.8.2"]
+	path = tinydtls-0.8.2
+	url = https://github.com/sk2-broken/tinydtls-0.8.2
+[submodule "mqtt-sn-contiki_example"]
+	path = mqtt-sn-contiki_example
+	url = https://github.com/sk2-broken/mqtt-sn-contiki_example
+[submodule "mspgcc-4.7.3"]
+	path = mspgcc-4.7.3
+	url = https://github.com/sk2-broken/mspgcc-4.7.3
