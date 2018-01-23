@@ -8,10 +8,10 @@
 	path = org.eclipse.tinydtls
 	url = https://github.com/sk2-broken/org.eclipse.tinydtls
 [submodule "tinydtls-0.8.2"]
-	path = tinydtls-0.8.2
+	path = contiki/apps/tinydtls
 	url = https://github.com/sk2-broken/tinydtls-0.8.2
 [submodule "mqtt-sn-contiki_example"]
-	path = mqtt-sn-contiki_example
+	path = contiki/mqtt_sn
 	url = https://github.com/sk2-broken/mqtt-sn-contiki_example
 [submodule "mspgcc-4.7.3"]
 	path = mspgcc-4.7.3
