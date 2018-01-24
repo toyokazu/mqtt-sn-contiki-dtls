@@ -92,7 +92,7 @@ $ cd ~/mqtt-sn-contiki-dtls/contiki/tools/cooja
 $ ant run
 ```
 
-* ~/mqtt-sn-contiki-dtls/contiki/mqtt_sn/simulation_mqtt_sn.csc を開く
+- ~/mqtt-sn-contiki-dtls/contiki/mqtt_sn/simulation_mqtt_sn.csc を開く
 
 #### tunslip6を起動 (別コンソール)
 
@@ -110,14 +110,14 @@ $ sudo ./broker_mqtts mqtts.conf
 
 #### シミュレータを実行
 
-* 「start」ボタンを押す
-* tun0インターフェイスをwiresharkでキャプチャすればMQTT-SN通信を参照可能
+- 「start」ボタンを押す
+- tun0インターフェイスをwiresharkでキャプチャすればMQTT-SN通信を参照可能
 
 ### tinydtls(0.8.2版)のサンプルプログラムを実行する場合
 
 mqtt_sn(非DTLS版)の実行手順と同様だが、シミュレーションファイルとして以下を開く
 
-* ~/mqtt-sn-contiki-dtls/contiki/apps/tinydtls/examples/contiki/tinydtls-client-example.csc を開く
+- ~/mqtt-sn-contiki-dtls/contiki/apps/tinydtls/examples/contiki/tinydtls-client-example.csc を開く
 
 ## メモ
 
