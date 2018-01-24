@@ -1,6 +1,6 @@
 # mqtt-sn-contiki-dtls
 
-## セットアップ
+## 1. セットアップ
 
 - OS: Ubuntu 16.04 x64
 - ホームディレクトリ(「~」)での作業を前提
@@ -69,7 +69,7 @@ $ make broker_mqtts
 
 ```
 $ cd ~/mqtt-sn-contiki-dtls/contiki/mqtt_sn
-$ make wismote
+$ make TARGET=z1
 ```
 
 ### tinydtls(0.8.2版)のサンプルプログラムをビルド
@@ -81,7 +81,7 @@ $ cd examples/contiki
 $ make TARGET=wismote
 ```
 
-## Contikiの実行
+## 2. Contikiの実行
 
 ### mqtt_sn(非DTLS版)を実行する場合
 
