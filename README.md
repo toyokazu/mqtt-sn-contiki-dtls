@@ -83,7 +83,7 @@ $ make TARGET=wismote
 
 ## 2. Contikiの実行
 
-### mqtt_sn(非DTLS版)を実行する場合
+### 2.1 mqtt_sn(非DTLS版)を実行する場合
 
 #### Coojaを起動
 
@@ -113,12 +113,14 @@ $ sudo ./broker_mqtts mqtts.conf
 - 「start」ボタンを押す
 - tun0インターフェイスをwiresharkでキャプチャすればMQTT-SN通信を参照可能
 
-### tinydtls(0.8.2版)のサンプルプログラムを実行する場合
+### 2.2 tinydtls(0.8.2版)のサンプルプログラムを実行する場合
 
 mqtt_sn(非DTLS版)の実行手順と同様だが、シミュレーションファイルとして以下を開く
 
 - ~/mqtt-sn-contiki-dtls/contiki/apps/tinydtls/examples/contiki/tinydtls-client-example.csc を開く
-
+- tinydtlsはバイナリサイズが大きいためwismoteを利用しているが、通信到達範囲がz1に比べて狭いので注意
+- powertraceサンプルを組み込んでいるため、頻繁にpowertraceログがコンソールに出力される
+	
 ## メモ
 
 - DTLS_RSMBのMQTT-SN over DTLSサーバに接続するが、クライアントはMQTT-SNではないため、ハンドシェイクに成功した後、止まる
